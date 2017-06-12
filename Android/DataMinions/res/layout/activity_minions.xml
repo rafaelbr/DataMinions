@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:id="@+id/mainLayout">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:src="@drawable/simpleheader"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DataMinions"
+            android:id="@+id/textView16"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center"/>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/minionsList"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_marginBottom="0dp"
+            android:choiceMode="none"
+            android:cacheColorHint="@android:color/transparent"
+            android:background="@android:color/transparent"
+            android:divider="@null"/>
+
+    <GridLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/slots"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+        <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_column="0"
+                android:background="@drawable/slot"
+                android:id="@+id/dmslot1">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imgDMSlot1"
+                    android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_column="1"
+                android:background="@drawable/slot"
+                android:id="@+id/dmslot2">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imgDMSlot2"
+                    android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_column="2"
+                android:background="@drawable/slot"
+                android:id="@+id/dmslot3">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imgDMSlot3"
+                    android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_column="3"
+                android:background="@drawable/slot"
+                android:id="@+id/dmslot4">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imgDMSlot4"
+                    android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_column="4"
+                android:background="@drawable/slot"
+                android:id="@+id/dmslot5">
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imgDMSlot5"
+                    android:layout_gravity="center"/>
+        </FrameLayout>
+    </GridLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/minions_selected_header"
+            android:id="@+id/textView19"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginTop="15dp"/>
+</GridLayout>

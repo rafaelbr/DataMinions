@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">DataMinions</string>
+  <string name="registration_label">Registration:</string>
+  <string name="alerts_label">Alerts:</string>
+  <string name="registrationdevice_label">Device Registration</string>
+  <string name="initialization_message">Initializing system...</string>
+  <string name="username_label">Username:</string>
+  <string name="password_label">Password:</string>
+  <string name="loginbutton_label">Register Device</string>
+  <string name="deviceregister_message">Checking device registration...</string>
+  <string name="loading_message">Loading data...</string>
+  <string name="error_message">General error! System Halted</string>
+  <string name="minionload_message">Gathering data from network...</string>
+  <string name="hubload_message">Connecting hubs...</string>
+  <string name="userminion_message">Gathering user captured data...</string>
+  <string name="libraryload_message">Downloading library database...</string>
+  <string name="finishload_message">System load complete...</string>
+  <string name="help_label">Help</string>
+  <string name="config_label">Settings</string>
+  <string name="profile_label">User Profile</string>
+  <string name="level_label">Level:</string>
+  <string name="xp_label">XP:</string>
+  <string name="money_label">Data Tokens:</string>
+  <string name="gold_label">DD Tokens:</string>
+  <string name="minionsqt_label">Minions Captured:</string>
+  <string name="library_header">Library</string>
+  <string name="miniontype_label">Type:</string>
+  <string name="minionfound_label">Found at:</string>
+  <string name="minionlevel_label">Level:</string>
+  <string name="dmstatus_label">Status:</string>
+  <string name="minions_selected_header">Selected Minions:</string>
+  <string name="attacks_label">Attacks:</string>
+
+</resources>

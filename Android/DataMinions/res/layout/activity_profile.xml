@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:columnCount="4"
+            android:id="@+id/mainLayout">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/simpleheader"
+            android:layout_columnSpan="4"/>
+
+    <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgAvatar"
+            android:src="@drawable/no_pic"
+            android:layout_columnSpan="1"
+            android:layout_column="0"
+            android:layout_rowSpan="2"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/profile_label"
+            android:id="@+id/textView6"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_row="0"
+            android:gravity="center_vertical|center"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtProfileName"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_row="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtProfileTitle"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_columnSpan="3"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/level_label"
+            android:id="@+id/textView7"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/xp_label"
+            android:id="@+id/textView8"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/money_label"
+            android:id="@+id/textView9"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/gold_label"
+            android:id="@+id/textView10"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/minionsqt_label"
+            android:id="@+id/textView11"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtLevel"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtGold"
+            android:layout_column="2"
+            android:layout_row="6"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtXP"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtMoney"
+            android:layout_column="2"
+            android:layout_row="5"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_columnSpan="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtMinionsQt"
+            android:layout_column="2"
+            android:layout_row="7"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_columnSpan="2"/>
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView5"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:src="@drawable/dd_logo"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"/>
+
+</GridLayout>
